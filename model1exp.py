@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler, PowerTransformer
 import matplotlib.pyplot as plt
 
 # Charger le modèle entraîné
-model_filename = "Experimental_data\modele_gradient_boosting_lasso.pkl"
+model_filename = "modele_gradient_boosting_lasso.pkl"
 models = joblib.load(model_filename)
 
 # Initialiser les transformateurs
